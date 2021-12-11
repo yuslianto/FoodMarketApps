@@ -25,11 +25,11 @@ const NewTaste = () => {
   return (
     <ScrollView>
       <View style={{ paddingTop: 8, paddingHorizontal: 24 }}>
-        <ItemListFood image={FoodDummy1} onPress={() => navigation.navigate('FoodDetail')} rating />
-        <ItemListFood image={FoodDummy3} onPress={() => navigation.navigate('FoodDetail')} rating />
-        <ItemListFood image={FoodDummy2} onPress={() => navigation.navigate('FoodDetail')} rating />
-        <ItemListFood image={FoodDummy5} onPress={() => navigation.navigate('FoodDetail')} rating />
-        <ItemListFood image={FoodDummy4} onPress={() => navigation.navigate('FoodDetail')} rating />
+        <ItemListFood image={FoodDummy1} onPress={() => navigation.navigate('FoodDetail')} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy3} onPress={() => navigation.navigate('FoodDetail')} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy2} onPress={() => navigation.navigate('FoodDetail')} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy5} onPress={() => navigation.navigate('FoodDetail')} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy4} onPress={() => navigation.navigate('FoodDetail')} rating="5" name="Sop Bumil" price="30.000" />
       </View>
     </ScrollView>
   );
@@ -39,11 +39,11 @@ const Popular = () => {
   return (
     <ScrollView>
       <View style={{ paddingTop: 8, paddingHorizontal: 24 }}>
-        <ItemListFood image={FoodDummy3} rating />
-        <ItemListFood image={FoodDummy4} rating />
-        <ItemListFood image={FoodDummy2} rating />
-        <ItemListFood image={FoodDummy5} rating />
-        <ItemListFood image={FoodDummy4} rating />
+        <ItemListFood image={FoodDummy3} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy4} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy2} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy5} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy4} rating="5" name="Sop Bumil" price="30.000" />
       </View>
     </ScrollView>
   );
@@ -53,11 +53,11 @@ const Recommended = () => {
   return (
     <ScrollView>
       <View style={{ paddingTop: 8, paddingHorizontal: 24 }}>
-        <ItemListFood image={FoodDummy5} rating />
-        <ItemListFood image={FoodDummy4} rating />
-        <ItemListFood image={FoodDummy4} rating />
-        <ItemListFood image={FoodDummy3} rating />
-        <ItemListFood image={FoodDummy1} rating />
+        <ItemListFood image={FoodDummy5} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy4} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy4} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy3} rating="5" name="Sop Bumil" price="30.000" />
+        <ItemListFood image={FoodDummy1} rating="5" name="Sop Bumil" price="30.000" />
       </View>
     </ScrollView>
   );
