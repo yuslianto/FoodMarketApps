@@ -25,11 +25,11 @@ const InProgress = () => {
   return (
     <ScrollView>
       <View style={{ paddingTop: 8, paddingHorizontal: 24 }}>
-        <ItemListFood image={FoodDummy1} onPress={() => navigation.navigate('FoodDetail')} items={3} name="Sop Bumil" price="3.000.000" type="in-progress" />
-        <ItemListFood image={FoodDummy3} onPress={() => navigation.navigate('FoodDetail')} items={3} name="Sop Bumil" price="3.000.000" type="in-progress" />
-        <ItemListFood image={FoodDummy2} onPress={() => navigation.navigate('FoodDetail')} items={3} name="Sop Bumil" price="3.000.000" type="in-progress" />
-        <ItemListFood image={FoodDummy5} onPress={() => navigation.navigate('FoodDetail')} items={3} name="Sop Bumil" price="3.000.000" type="in-progress" />
-        <ItemListFood image={FoodDummy4} onPress={() => navigation.navigate('FoodDetail')} items={3} name="Sop Bumil" price="3.000.000" type="in-progress" />
+        <ItemListFood image={FoodDummy1} onPress={() => navigation.navigate('OrderDetail')} items={3} name="Sop Bumil" price="3.000.000" type="in-progress" />
+        <ItemListFood image={FoodDummy3} onPress={() => navigation.navigate('OrderDetail')} items={3} name="Sop Bumil" price="3.000.000" type="in-progress" />
+        <ItemListFood image={FoodDummy2} onPress={() => navigation.navigate('OrderDetail')} items={3} name="Sop Bumil" price="3.000.000" type="in-progress" />
+        <ItemListFood image={FoodDummy5} onPress={() => navigation.navigate('OrderDetail')} items={3} name="Sop Bumil" price="3.000.000" type="in-progress" />
+        <ItemListFood image={FoodDummy4} onPress={() => navigation.navigate('OrderDetail')} items={3} name="Sop Bumil" price="3.000.000" type="in-progress" />
       </View>
     </ScrollView>
   );
