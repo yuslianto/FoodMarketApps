@@ -46,7 +46,7 @@ const OrderDetail = ({ navigation }) => {
         </View>
         <View style={styles.button}>
           <Button
-            text={'Checkout Now'}
+            text={'Cancel My Order'}
             color="#D9435E"
             textColor="#FFFFFF"
             onPress={() =>
