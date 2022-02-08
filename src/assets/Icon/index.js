@@ -10,6 +10,7 @@ import IcStarOff from './ic_star_off.svg';
 import IcArrowBackWhite from './Ic_arrow_back_white.svg';
 import ICAdd from './ic_add.svg';
 import ICMin from './ic_min.svg';
+import IcNext from './ic_next.svg';
 
 export {
   IC_ArrowBack,
@@ -24,4 +25,5 @@ export {
   IcArrowBackWhite,
   ICAdd,
   ICMin,
+  IcNext,
 };

@@ -29,7 +29,10 @@ const SignUp = ({ navigation }) => {
         <Gap height={16} />
         <TextInput title="Password" placeholder="Type your password" />
         <Gap height={24} />
-        <Button text="Continue" onPress={() => navigation.navigate('AddressSignUp')} />
+        <Button
+          text="Continue"
+          onPress={() => navigation.navigate('AddressSignUp')}
+        />
       </View>
     </View>
   );
@@ -70,8 +73,9 @@ const styles = StyleSheet.create({
     padding: 24,
   },
   addPhoto: {
-    fontSize: 14,
+    fontSize: 13,
     fontFamily: 'Poppins-Light',
     color: '#8D92A3',
+    textAlign: 'center',
   },
 });

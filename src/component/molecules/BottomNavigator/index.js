@@ -76,7 +76,6 @@ const BottomNavigator = ({state, descriptors, navigation}) => {
             <Icon label={label} focus={isFocused} />
             {/* <IcOrderOn /> */}
             {/* {console.log('label di touchable opacity ', label)} */}
-            <Text>{label}</Text>
           </TouchableOpacity>
         );
       })}

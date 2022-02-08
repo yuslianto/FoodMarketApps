@@ -11,6 +11,8 @@ import Counter from './Counter';
 import ItemValue from './ItemValue';
 import EmpetyOrder from './EmpetyOrder';
 import OrderTabSection from './OrderTabSection';
+import ProfileTabSection from './ProfileTabSection';
+import ItemListMenu from './ItemListMenu';
 
 export {
   Header,
@@ -26,4 +28,6 @@ export {
   ItemValue,
   EmpetyOrder,
   OrderTabSection,
+  ProfileTabSection,
+  ItemListMenu,
 };
